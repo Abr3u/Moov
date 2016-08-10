@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "433413080573",
+    "firebase_url": "https://moov-6f702.firebaseio.com",
+    "project_id": "moov-6f702",
+    "storage_bucket": "moov-6f702.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433413080573:android:87fe30b37b5cdd8d",
+        "android_client_info": {
+          "package_name": "it.moov.moovandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433413080573-usknh59fa0b3n259074psud90kvptbv1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "it.moov.moovandroid",
+            "certificate_hash": "4D9FBE260D8F8D8F9AC80BA424C7DFF7B4581158"
+          }
+        },
+        {
+          "client_id": "433413080573-d2nuo10cn5qce7vlrr8cf2srr8fv5n5m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7nIBWXbEA4lvUd83ORxuzz6Aq8-a-Wd8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433413080573-d2nuo10cn5qce7vlrr8cf2srr8fv5n5m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
