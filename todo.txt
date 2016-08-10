@@ -1,8 +1,6 @@
 decidir quem está perto para responder a um pedido
 
-login firebase
-
-
+DONE login firebase
 DONE addNew res/loc
 
 

@@ -4,6 +4,9 @@ import javax.annotation.Generated;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 @Generated("org.jsonschema2pojo")
 public class Reservation {
 
@@ -116,6 +119,7 @@ public class Reservation {
 
     @Override
     public String toString() {
-        return uSERNAME+"["+dATE+"]"+"{"+lATITUDE+":"+lONGITUDE+"}"+cARTYPE;
+        String formattedDate = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss").format(new Date(dATE));
+        return uSERNAME+"["+formattedDate+"]"+"{"+lATITUDE+":"+lONGITUDE+"}"+cARTYPE;
     }
 }
